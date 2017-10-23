@@ -2,9 +2,15 @@
 
 The following program is a GUI application, written in Python and targeting the Windows platform. It's purpose is to allow AMTA competitors to calculate a relative "individual score" for accurate comparisons across competitors. With a normalization to allow comparison of competitors with different numbers of scores on a given ballot. 
 
+## Version
+
+0.0.0
+
+**Notice:** This application is prerelease version 0, the development process will continue to be pushed to github, but version numbers will not begin to increase until I feel the intial work has been updated in a satisfactory matter such that the previos work posted defined a distinct version. When I feel the program is ready for public release I will instance the version number to 1.0.0 and begin releasing executable files for supported OSes. While prerelease development will likely be rapid, it is both irresponsible and legally unfounded to take any release notes, blog posts, social media updates, or other statements of authors or contributors as a contract implying a set date of completion or legal deadlines of any kind.
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and end user cases.
 
 ### Prerequisites
 
@@ -16,7 +22,7 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+**If you are visiting early enough in prerelease to see this message, please know that the below is template space filler and will be replaced once a viable development release candidate has been posted.**
 
 Say what the step will be
 
@@ -34,9 +40,8 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Atom](https://atom.io/) - The development IDE used in primary development
+* [Python 3.6.3](https://www.python.org/downloads/release/python-363/) - The development language and interpreter
 
 ## Contributing
 
