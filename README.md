@@ -1,8 +1,21 @@
 # Mock-Trial-Calculations
 
 The following program is a GUI application, written in Python and targeting the Windows platform. It's purpose is to allow AMTA competitors to calculate a relative "individual score" for accurate comparisons across competitors. With a normalization to allow comparison of competitors with different numbers of scores on a given ballot. 
+### About
 
-## Version
+In the past, determining who did the best on a given team, or even simple efficacy and contribution of individual competitors as a part of the team, was an entirely subjective exercise. However, my coach, Marshall Gardener, has come up with a system for using the AMTA ballot's to mathematically calculate each team members contribution. I then took it upon myself to make this methodology accessable to anyone through an easy to use GUI, and applicable to anyone by normalizing the scores over how many chances each person had to earn points on a given ballot.
+The underlying system can be found rather easily in the source code, which I have obviousy made open and avalible, but the main benefits of this application will include:
+
+* a GUI method of input for ballot scores.
+* a GUI for choosing your roles.
+* The ability to store more than one ballot for calculations and select roles on a per ballot basis.
+
+Goals for further development include but are not limited to:
+
+* The ability to rerun over the same ballot multiple time, so as to be able run the calculations for multiple competitors without having to reinput the underlying data
+* The ability to save your ballot data to a unique, easy to load format, allowing users to rerun over old tourny result, add new results to the old, and create running totals of perfromance to date.
+
+### Version
 
 0.0.0
 
