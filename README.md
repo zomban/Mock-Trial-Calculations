@@ -6,7 +6,7 @@ The following program is a GUI application, written in Python and targeting the 
 
 0.0.0
 
-**Notice:** This application is prerelease version 0, the development process will continue to be pushed to github, but version numbers will not begin to increase until I feel the intial work has been updated in a satisfactory matter such that the previos work posted defined a distinct version. When I feel the program is ready for public release I will instance the version number to 1.0.0 and begin releasing executable files for supported OSes. While prerelease development will likely be rapid, it is both irresponsible and legally unfounded to take any release notes, blog posts, social media updates, or other statements of authors or contributors as a contract implying a set date of completion or legal deadlines of any kind.
+**Notice:** This application is prerelease version 0, the development process will continue to be pushed to github, but version numbers will not begin to increase until I feel the intial work has been updated in a satisfactory matter such that the previous work posted defined a distinct version. When I feel the program is ready for public release I will instance the version number to 1.0.0 and begin releasing executable files for supported OSes. While prerelease development will likely be rapid, it is both irresponsible and legally unfounded to take any release notes, blog posts, social media updates, or other statements of authors or contributors as a contract implying a set date of completion or legal deadlines of any kind.
 
 ## Getting Started
 
@@ -40,12 +40,12 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Built With
 
-* [Atom](https://atom.io/) - The development IDE used in primary development
+* [Atom](https://atom.io/) - The IDE used in primary development
 * [Python 3.6.3](https://www.python.org/downloads/release/python-363/) - The development language and interpreter
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/zomban/Mock-Trial-Calculations/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
