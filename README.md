@@ -13,7 +13,7 @@ Goals for further development include but are not limited to:
 
 * The ability to store more than one ballot for calculations and select roles on a per ballot basis.
 * The ability to rerun over the same ballot multiple time, so as to be able run the calculations for multiple competitors without having to re-input the underlying data
-* The ability to save your ballot data to a unique, easy to load format, allowing users to rerun over old tourney result, add new results to the old, and create running totals of performance to date.
+* The ability to save your ballot data to a unique, easy to load format, allowing users to rerun over old tourney results, add new results to the old, and create running totals of performance to date.
 
 ### Version
 
@@ -72,5 +72,5 @@ This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE
 
 ## Acknowledgments
 
-* Special thanks to Marshall Gardener, as his techniques for acquiring scores was used as the base for this program, credit for the use of the average scores of opposing directs to help calculate point gaps a given competitor is responsible for.
+* Special thanks to Marshall Gardener, as his techniques for acquiring scores were used as the base for this program, credit for the use of the average scores of opposing directs to help calculate point gaps a given competitor is responsible for.
 * Acknowledgements to [AMTA](http://www.collegemocktrial.org/), for providing the official rules of judging tournaments, as well as the system of ballots.
