@@ -2,6 +2,8 @@
 
 The following 2 programs are GUI applications, written in Python and targeting the Windows platform, together they form a single suite to accomplish the following goals. Their purpose is to allow AMTA competitors to calculate a relative "individual score" for accurate comparisons across competitors. With a normalization to allow comparison of competitors with different numbers of scores on a given ballot. The first program, BallotRW, allows coaches and competitors to read, write, and edit the results of a single ballot to a unique .BALLOT format. The second program, CompetEval, allows anyone to import as many .BALLOT files as they like and generate performance reports for competitors.
 
+<p align="center"><img src="https://cdn.rawgit.com/zomban/Mock-Trial-Calculations/06853ae7/Resources/LOGO.svg"/></p>
+
 ### About
 
 In the past, determining who did the best on a given team, or even simple efficacy and contribution of individual competitors as a part of the team, was an entirely subjective exercise. However, my coach, Marshall Gardener, has come up with a system for using the AMTA ballot's to mathematically calculate each team members contribution. I then took it upon myself to make this methodology accessible to anyone through an easy to use GUI, and applicable to anyone by normalizing the scores over how many chances each person had to earn points on a given ballot.
