@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from tkinter import Tk, Label, Button, Entry
+from tkinter import Tk, Label, Button, Entry, END
 
 # Define the global variable lists for Prosecution scores
 
@@ -48,10 +48,18 @@ class Ballot:
 # Define the ballot number label and entry field
 
         self.label_ballot_num = Label(master, text="Ballot #")
-        self.label_ballot_num.grid(row=1, column=3)
+        self.label_ballot_num.grid(row=1, column=1)
 
         self.ballot_num = Entry(master)
-        self.ballot_num.grid(row=1, column=4)
+        self.ballot_num.grid(row=1, column=2)
+
+# Define the description label and entry field
+
+        self.label_ballot_des = Label(master, text="Ballot Description")
+        self.label_ballot_des.grid(row=1, column=5)
+
+        self.ballot_des = Entry(master)
+        self.ballot_des.grid(row=1, column=6)
 
 # Define side labels
 
@@ -313,40 +321,43 @@ class Ballot:
         self.button_close = Button(master, text="Close", command=master.quit)
         self.button_close.grid(row=27, column=5)
 
-        self.button_test_ballot = Button(master, text="Test", command=self.test)
-        self.button_test_ballot.grid(row=27, column=3, columnspan=2)
+        self.button_clear = Button(master, text="Clear Text", command=self.clear)
+        self.button_clear.grid(row=27, column=3, columnspan=2)
 
 # Function tests the save button by printing the global variables
 
-    def test(self):
-        print(p_open_raw)
-        print(pa_dir1_raw)
-        print(pw_dir1_raw)
-        print(pw_crs1_raw)
-        print(pa_dir2_raw)
-        print(pw_dir2_raw)
-        print(pw_crs2_raw)
-        print(pa_dir3_raw)
-        print(pw_dir3_raw)
-        print(pw_crs3_raw)
-        print(pa_cross1_raw)
-        print(pa_cross2_raw)
-        print(pa_cross3_raw)
-        print(p_close_raw)
-        print(d_open_raw)
-        print(da_cross1_raw)
-        print(da_cross2_raw)
-        print(da_cross3_raw)
-        print(da_dir1_raw)
-        print(dw_dir1_raw)
-        print(dw_crs1_raw)
-        print(da_dir2_raw)
-        print(dw_dir2_raw)
-        print(dw_crs2_raw)
-        print(da_dir3_raw)
-        print(dw_dir3_raw)
-        print(dw_crs3_raw)
-        print(d_close_raw)
+    def clear(self):
+
+        self.ballot_num.delete(0, END)
+        self.ballot_des.delete(0, END)
+        self.p_open_raw.delete(0, END)
+        self.pa_dir1_raw.delete(0, END)
+        self.pw_dir1_raw.delete(0, END)
+        self.pw_crs1_raw.delete(0, END)
+        self.pa_dir2_raw.delete(0, END)
+        self.pw_dir2_raw.delete(0, END)
+        self.pw_crs2_raw.delete(0, END)
+        self.pa_dir3_raw.delete(0, END)
+        self.pw_dir3_raw.delete(0, END)
+        self.pw_crs3_raw.delete(0, END)
+        self.pa_cross1_raw.delete(0, END)
+        self.pa_cross2_raw.delete(0, END)
+        self.pa_cross3_raw.delete(0, END)
+        self.p_close_raw.delete(0, END)
+        self.d_open_raw.delete(0, END)
+        self.da_cross1_raw.delete(0, END)
+        self.da_cross2_raw.delete(0, END)
+        self.da_cross3_raw.delete(0, END)
+        self.da_dir1_raw.delete(0, END)
+        self.dw_dir1_raw.delete(0, END)
+        self.dw_crs1_raw.delete(0, END)
+        self.da_dir2_raw.delete(0, END)
+        self.dw_dir2_raw.delete(0, END)
+        self.dw_crs2_raw.delete(0, END)
+        self.da_dir3_raw.delete(0, END)
+        self.dw_dir3_raw.delete(0, END)
+        self.dw_crs3_raw.delete(0, END)
+        self.d_close_raw.delete(0, END)
 
 # Function saves results to the appropriate arrays and makes all results int
 

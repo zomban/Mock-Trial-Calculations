@@ -17,7 +17,7 @@ The underlying system can be found rather easily in the source code, which I hav
 
 ### Version
 
-0.1.0
+0.1.1
 
 **Notice:** This application is prerelease version 0, the development process will continue to be pushed to GitHub, though. When I feel the program is ready for public release I will instance the version number to 1.0.0 and begin releasing executable files for supported OSes. While prerelease development will likely be rapid, it is both irresponsible and legally unfounded to take any release notes, blog posts, social media updates, or other statements of authors or contributors as a contract implying a set date of completion or legal deadlines of any kind.
 
